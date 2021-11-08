@@ -24,6 +24,16 @@ public class CarController : MonoBehaviour
                 axleInfo.leftWheel.motorTorque = motor;
                 axleInfo.rightWheel.motorTorque = motor;
             }
+
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                axleInfo.leftWheel.brakeTorque = 1;
+                axleInfo.rightWheel.brakeTorque = 1;
+            }else if (Input.GetKeyUp(KeyCode.Space))
+            {
+                axleInfo.leftWheel.brakeTorque = 0;
+                axleInfo.rightWheel.brakeTorque = 0;
+            }
         }
     }
 }
