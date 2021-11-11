@@ -27,11 +27,6 @@ public class CameraController : MonoBehaviour
 
         transform.position = target.position;
 
-        Vector3 rot = transform.rotation.eulerAngles;
-        Vector3 otherRot = target.rotation.eulerAngles;
-
-        rot.y = Mathf.Lerp(rot.y, otherRot.y, Time.deltaTime * speed);
-
-        transform.rotation = Quaternion.Euler(rot);
+        transform.rotation = Quaternion.Lerp(transform.rotation, target.rotation, Time.deltaTime * speed);
     }
 }
