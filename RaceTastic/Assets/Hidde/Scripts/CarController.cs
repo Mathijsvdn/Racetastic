@@ -5,16 +5,29 @@ using UnityEngine;
 public class CarController : MonoBehaviour
 {
     public List<AxleInfo> axleInfos;
-    public float maxSpeed;
+    public float downForce;
+    public float maxSpeed, maxBrakeTorque;
     public float maxSteeringAngle;
+
+    private Rigidbody rb;
+
+    private bool isFullyGrounded;
+
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
 
     public void FixedUpdate()
     {
+        
+
         float motor = maxSpeed * Input.GetAxis("Vertical");
         float steering = maxSteeringAngle * Input.GetAxis("Horizontal");
 
         foreach (var axleInfo in axleInfos)
         {
+
             if (axleInfo.steering)
             {
                 axleInfo.leftWheel.steerAngle = steering;
@@ -25,16 +38,18 @@ public class CarController : MonoBehaviour
                 axleInfo.rightWheel.motorTorque = motor;
             }
 
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKey(KeyCode.Space))
             {
-                axleInfo.leftWheel.brakeTorque = 1;
-                axleInfo.rightWheel.brakeTorque = 1;
-            }else if (Input.GetKeyUp(KeyCode.Space))
+                axleInfo.leftWheel.brakeTorque = maxBrakeTorque;
+                axleInfo.rightWheel.brakeTorque = maxBrakeTorque;
+            }else
             {
                 axleInfo.leftWheel.brakeTorque = 0;
                 axleInfo.rightWheel.brakeTorque = 0;
             }
         }
+            
+        rb.AddForce(-transform.up * downForce * Time.fixedDeltaTime);
     }
 }
 
