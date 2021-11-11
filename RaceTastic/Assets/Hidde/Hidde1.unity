@@ -508,7 +508,7 @@ MonoBehaviour:
     steering: 0
   downForce: 1000
   maxSpeed: 1000
-  maxBrakeTorque: 500
+  maxBrakeTorque: 1000
   maxSteeringAngle: 45
 --- !u!1 &778244660
 GameObject:
