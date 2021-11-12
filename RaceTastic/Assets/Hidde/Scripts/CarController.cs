@@ -20,26 +20,23 @@ public class CarController : MonoBehaviour
 
     public void FixedUpdate()
     {
-        
-
-        float motor = maxSpeed * Input.GetAxis("Vertical");
-        float steering = maxSteeringAngle * Input.GetAxis("Horizontal");
+        // Get the input of the player
+        float motor = maxSpeed * Input.GetAxis("Vertical"); // Gets the forward input for driving and braking
+        float steering = maxSteeringAngle * Input.GetAxis("Horizontal"); // Gets the right input for steering
 
         foreach (var axleInfo in axleInfos)
         {
-
-            if (axleInfo.steering)
+            // Since all vehicles are gonna be front wheel driven they are always steering and rotating
+            if (axleInfo.forceWheel)
             {
                 axleInfo.leftWheel.steerAngle = steering;
                 axleInfo.rightWheel.steerAngle = steering;
-            }
-            
-            if (axleInfo.motor)
-            {
+
                 axleInfo.leftWheel.motorTorque = motor;
                 axleInfo.rightWheel.motorTorque = motor;
             }
 
+            // If the player presses the spacebar the car wil use the handbrake
             if (Input.GetKey(KeyCode.Space))
             {
                 axleInfo.leftWheel.brakeTorque = maxBrakeTorque;
@@ -51,15 +48,17 @@ public class CarController : MonoBehaviour
             }
         }
             
+        // This is a tucked away feature to prevent the vehicle from flipping over
         rb.AddForce(-transform.up * downForce * Time.fixedDeltaTime);
     }
 }
 
+
+// In this class we can assign the wheel and whether they are used to drive or not
 [System.Serializable]
 public class AxleInfo
 {
     public WheelCollider leftWheel;
     public WheelCollider rightWheel;
-    public bool motor; // is this wheel attached to motor?
-    public bool steering; // does this wheel apply steer angle?
+    public bool forceWheel;
 }

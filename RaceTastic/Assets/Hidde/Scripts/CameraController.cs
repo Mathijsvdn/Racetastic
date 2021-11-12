@@ -13,6 +13,7 @@ public class CameraController : MonoBehaviour
 
     private void LateUpdate()
     {
+        // If the player presses the F key they can look behind them
         if (Input.GetKey(KeyCode.F))
         {
             lookBehind = true;
@@ -25,8 +26,10 @@ public class CameraController : MonoBehaviour
         backwardCam.SetActive(lookBehind);
         forwardCam.SetActive(!lookBehind);
 
+        // The camera will follow the player around
         transform.position = target.position;
 
+        // The camera will follow the player around with a smoothed delay
         transform.rotation = Quaternion.Lerp(transform.rotation, target.rotation, Time.deltaTime * speed);
     }
 }
