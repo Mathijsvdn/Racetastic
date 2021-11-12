@@ -5,46 +5,76 @@ using UnityEngine;
 public class CarController : MonoBehaviour
 {
     public List<AxleInfo> axleInfos;
-    public float downForce;
+    public float downForce, maxBoostTime;
     public float maxSpeed, maxBrakeTorque;
     public float maxSteeringAngle;
 
     private Rigidbody rb;
 
-    private bool isFullyGrounded;
+    private float boostTimer;
+
+    private bool isBoosting;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
+        boostTimer = maxBoostTime;
     }
 
     public void FixedUpdate()
     {
-        // Get the input of the player
-        float motor = maxSpeed * Input.GetAxis("Vertical"); // Gets the forward input for driving and braking
-        float steering = maxSteeringAngle * Input.GetAxis("Horizontal"); // Gets the right input for steering
-
-        foreach (var axleInfo in axleInfos)
+        if (!isBoosting)
         {
-            // Since all vehicles are gonna be front wheel driven they are always steering and rotating
-            if (axleInfo.forceWheel)
-            {
-                axleInfo.leftWheel.steerAngle = steering;
-                axleInfo.rightWheel.steerAngle = steering;
+            // Get the input of the player
+            float motor = maxSpeed * Input.GetAxis("Vertical"); // Gets the forward input for driving and braking
+            float steering = maxSteeringAngle * Input.GetAxis("Horizontal"); // Gets the right input for steering
 
-                axleInfo.leftWheel.motorTorque = motor;
-                axleInfo.rightWheel.motorTorque = motor;
+            foreach (var axleInfo in axleInfos)
+            {
+                // Since all vehicles are gonna be front wheel driven they are always steering and rotating
+                if (axleInfo.forceWheel)
+                {
+                    axleInfo.leftWheel.steerAngle = steering;
+                    axleInfo.rightWheel.steerAngle = steering;
+
+                    axleInfo.leftWheel.motorTorque = motor;
+                    axleInfo.rightWheel.motorTorque = motor;
+                }
+
+                // If the player presses the spacebar the car wil use the handbrake
+                if (Input.GetKey(KeyCode.Space))
+                {
+                    axleInfo.leftWheel.brakeTorque = maxBrakeTorque;
+                    axleInfo.rightWheel.brakeTorque = maxBrakeTorque;
+                }
+                else
+                {
+                    axleInfo.leftWheel.brakeTorque = 0;
+                    axleInfo.rightWheel.brakeTorque = 0;
+                }
+            }
+        }
+        else
+        {
+            float steering = maxSteeringAngle * Input.GetAxis("Horizontal"); // Gets the right input for steering
+            foreach (var axleInfo in axleInfos)
+            {
+                // Since all vehicles are gonna be front wheel driven they are always steering and rotating
+                if (axleInfo.forceWheel)
+                {
+                    axleInfo.leftWheel.steerAngle = steering;
+                    axleInfo.rightWheel.steerAngle = steering;
+
+                    axleInfo.leftWheel.motorTorque = maxSpeed * 2;
+                    axleInfo.rightWheel.motorTorque = maxSpeed * 2;
+                }
             }
 
-            // If the player presses the spacebar the car wil use the handbrake
-            if (Input.GetKey(KeyCode.Space))
+            boostTimer -= Time.deltaTime;
+            if(boostTimer <= 0)
             {
-                axleInfo.leftWheel.brakeTorque = maxBrakeTorque;
-                axleInfo.rightWheel.brakeTorque = maxBrakeTorque;
-            }else
-            {
-                axleInfo.leftWheel.brakeTorque = 0;
-                axleInfo.rightWheel.brakeTorque = 0;
+                isBoosting = false;
+                boostTimer = maxBoostTime;
             }
         }
             
@@ -61,6 +91,11 @@ public class CarController : MonoBehaviour
             axleInfo.leftWheel.motorTorque = 0f;
             axleInfo.rightWheel.motorTorque = 0f;
         }
+    }
+
+    public void Boost()
+    {
+        isBoosting = true;
     }
 }
 
