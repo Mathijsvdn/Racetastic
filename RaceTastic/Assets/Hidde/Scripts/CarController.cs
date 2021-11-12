@@ -51,8 +51,18 @@ public class CarController : MonoBehaviour
         // This is a tucked away feature to prevent the vehicle from flipping over
         rb.AddForce(-transform.up * downForce * Time.fixedDeltaTime);
     }
-}
 
+    public void ResetForces()
+    {
+        rb.velocity = Vector3.zero;
+
+        foreach (var axleInfo in axleInfos)
+        {
+            axleInfo.leftWheel.motorTorque = 0f;
+            axleInfo.rightWheel.motorTorque = 0f;
+        }
+    }
+}
 
 // In this class we can assign the wheel and whether they are used to drive or not
 [System.Serializable]

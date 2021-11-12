@@ -39,6 +39,8 @@ public class CarRespawn : MonoBehaviour
             {
                 transform.position = respawnPoint.position;
                 transform.rotation = respawnPoint.rotation;
+
+                GetComponentInParent<CarController>().ResetForces();
             }
         }
         else
