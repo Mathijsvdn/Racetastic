@@ -12,7 +12,7 @@ public class CheckPoint : MonoBehaviour
     private void Start()
     {
         // Tell the checkpointmanager to add this checkpoint to the list
-        CheckPointManager.instance.AddCheckPoint();
+        CheckPointManager.instance.AddCheckPoint(this);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -33,5 +33,10 @@ public class CheckPoint : MonoBehaviour
                 isTriggered = true;
             }
         }
+    }
+
+    public void SetTriggeredState(bool state)
+    {
+        isTriggered = state;
     }
 }
