@@ -12,6 +12,8 @@ public class CheckPointManager : MonoBehaviour
 
     private List<CheckPoint> checkPoints = new List<CheckPoint>();
 
+    private int lapsDone;
+
     private void Awake()
     {
         instance = this;
@@ -19,20 +21,33 @@ public class CheckPointManager : MonoBehaviour
 
     public void AddCheckPoint(CheckPoint point)
     {
-        checkPointsLeft++;
         checkPoints.Add(point);
-    }
-
-    public void Finish()
-    {
-        for (int i = 0; i < checkPoints.Count; i++)
-        {
-            checkPoints[i].SetTriggeredState(false);
-        }
     }
 
     public void TriggerCheckPoint()
     {
-        if()
+        checkPointsLeft++;
+        if (checkPointsLeft == checkPoints.Count)
+        {
+            StartCoroutine(ResetRounds());
+            lapsDone++;
+
+            if (lapsDone == laps)
+            {
+                print("Race finished!");
+            }
+        }
+    }
+
+    private IEnumerator ResetRounds()
+    {
+        yield return new WaitForSeconds(.5f);
+
+        foreach (var item in checkPoints)
+        {
+            item.SetTriggeredState(false);
+        }
+
+        checkPointsLeft = 0;
     }
 }
