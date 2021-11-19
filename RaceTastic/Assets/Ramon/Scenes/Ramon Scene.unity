@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 1481.9727, g: 1836.0449, b: 2430.713, a: 1}
+  m_IndirectSpecularColor: {r: 1478.5424, g: 1831.518, b: 2424.9197, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6138,7 +6138,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Screen Settings
+  m_text: 'Graphic Settings
 
 '
   m_isRightToLeft: 0
@@ -11635,7 +11635,7 @@ GameObject:
   - component: {fileID: 2000968607}
   - component: {fileID: 2000968606}
   m_Layer: 5
-  m_Name: Screen Button
+  m_Name: Graphic Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12339,7 +12339,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2121140766}
   m_Layer: 5
-  m_Name: Screen 3.3 - Screen Settings
+  m_Name: Screen 3.3 - Graphic Settings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
