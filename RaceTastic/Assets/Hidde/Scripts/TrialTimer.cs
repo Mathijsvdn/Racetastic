@@ -4,11 +4,19 @@ using UnityEngine;
 
 public class TrialTimer : MonoBehaviour
 {
-    public float time;
+    public float seconds;
+    public float minutes;
 
     private void Update()
     {
-        time += Time.deltaTime;
-        PlayerUI.instance.timerText.text = time.ToString("0");
+        seconds += Time.deltaTime;
+        PlayerUI.instance.timerText.text = minutes + ":" + seconds.ToString("0");
+
+        if(seconds >= 59)
+        {
+            seconds = 1;
+            minutes++;
+        }
+
     }
 }
