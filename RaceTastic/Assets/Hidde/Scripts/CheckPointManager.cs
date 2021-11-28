@@ -8,6 +8,8 @@ public class CheckPointManager : MonoBehaviour
 
     public static CheckPointManager instance;
 
+    public TrialTimer timer;
+
     private int checkPointsLeft;
 
     private List<CheckPoint> checkPoints = new List<CheckPoint>();
@@ -34,9 +36,17 @@ public class CheckPointManager : MonoBehaviour
 
             if (lapsDone == laps)
             {
-                print("Race finished!");
+                OnFinish();
             }
         }
+    }
+
+    private void OnFinish()
+    {
+        print("Race finished!");
+
+        int sec = (int)Mathf.Round(timer.seconds);
+        int min = (int)Mathf.Round(timer.minutes);  
     }
 
     private IEnumerator ResetRounds()
