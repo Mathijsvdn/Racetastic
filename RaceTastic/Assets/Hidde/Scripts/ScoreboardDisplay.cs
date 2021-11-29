@@ -39,6 +39,8 @@ public class ScoreboardDisplay : MonoBehaviour
 
         GameObject text = Instantiate(scoreText, content);
         text.GetComponent<TMPro.TMP_Text>().text = "1. " + playerName + " - " + minutes + ":" + seconds;
+
+        scoreTexts.Add(text);
     }
 
     private void ClearTexts()
