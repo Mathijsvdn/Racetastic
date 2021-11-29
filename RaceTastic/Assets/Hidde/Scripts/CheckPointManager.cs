@@ -46,7 +46,9 @@ public class CheckPointManager : MonoBehaviour
         print("Race finished!");
 
         int sec = (int)Mathf.Round(timer.seconds);
-        int min = (int)Mathf.Round(timer.minutes);  
+        int min = (int)Mathf.Round(timer.minutes);
+
+        FindObjectOfType<ScoreTracker>().SetScore(sec, min);
     }
 
     private IEnumerator ResetRounds()
