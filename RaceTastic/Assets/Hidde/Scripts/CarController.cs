@@ -79,7 +79,7 @@ public class CarController : MonoBehaviour
         }
             
         // This is a tucked away feature to prevent the vehicle from flipping over
-        rb.AddForce(-transform.up * downForce * Time.fixedDeltaTime);
+        rb.AddForce(-transform.up * downForce);
     }
 
     public void ResetForces()
