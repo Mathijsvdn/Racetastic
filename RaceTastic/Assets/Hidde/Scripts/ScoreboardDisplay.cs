@@ -21,9 +21,9 @@ public class ScoreboardDisplay : MonoBehaviour
 
     private void Start()
     {
-        players = PlayerPrefs.GetInt("Players");
+        players = PlayerPrefs.GetInt("Players") + 1;
 
-        for (int i = 0; i < players; i++)
+        for (int i = 1; i < players; i++)
         {
             string pName = PlayerPrefs.GetString("PlayerName" + i);
             int pTimeS = PlayerPrefs.GetInt("PlayerTimeS" + i);
@@ -33,12 +33,34 @@ public class ScoreboardDisplay : MonoBehaviour
         }
     }
 
+    string secondsS = "";
+    string minutesS = "";
+
     private void UpdateText(string playerName, int seconds, int minutes)
     {
-        ClearTexts();
+        //ClearTexts();
 
         GameObject text = Instantiate(scoreText, content);
-        text.GetComponent<TMPro.TMP_Text>().text = "1. " + playerName + " - " + minutes + ":" + seconds;
+
+        if(seconds < 10)
+        {
+            secondsS = "0" + seconds;
+        }
+        else
+        {
+            secondsS = seconds.ToString();
+        }
+
+        if(minutes < 10)
+        {
+            minutesS = "0" + minutes;
+        }
+        else
+        {
+            minutesS = minutes.ToString();
+        }
+
+        text.GetComponent<TMPro.TMP_Text>().text = playerName + " - " + minutesS + ":" + secondsS;
 
         scoreTexts.Add(text);
     }
