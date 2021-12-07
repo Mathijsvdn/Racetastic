@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5309642366347460105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2801415533934585361}
+  m_Layer: 0
+  m_Name: Modulare asset Road hill
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2801415533934585361
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5309642366347460105}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -20.3634, y: 4.2298393, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4724863011354791431}
+  - {fileID: 6832538725313803761}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &5050976774059600364
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2801415533934585361}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 80fd5be35d2598741b57e0b08c329862, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 80fd5be35d2598741b57e0b08c329862, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20.3634
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 80fd5be35d2598741b57e0b08c329862, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.2298393
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 80fd5be35d2598741b57e0b08c329862, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 80fd5be35d2598741b57e0b08c329862, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 80fd5be35d2598741b57e0b08c329862, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 80fd5be35d2598741b57e0b08c329862, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 80fd5be35d2598741b57e0b08c329862, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 80fd5be35d2598741b57e0b08c329862, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 80fd5be35d2598741b57e0b08c329862, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 80fd5be35d2598741b57e0b08c329862, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 80fd5be35d2598741b57e0b08c329862, type: 3}
+      propertyPath: m_Name
+      value: Modulare asset Road hill Railing
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 80fd5be35d2598741b57e0b08c329862, type: 3}
+--- !u!4 &4724863011354791431 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 80fd5be35d2598741b57e0b08c329862, type: 3}
+  m_PrefabInstance: {fileID: 5050976774059600364}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6438094370948289050
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2801415533934585361}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: d432ca2f624939c43abc81ae10b9ae03, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d432ca2f624939c43abc81ae10b9ae03, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20.3634
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d432ca2f624939c43abc81ae10b9ae03, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.2298393
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d432ca2f624939c43abc81ae10b9ae03, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d432ca2f624939c43abc81ae10b9ae03, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d432ca2f624939c43abc81ae10b9ae03, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d432ca2f624939c43abc81ae10b9ae03, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d432ca2f624939c43abc81ae10b9ae03, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d432ca2f624939c43abc81ae10b9ae03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d432ca2f624939c43abc81ae10b9ae03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d432ca2f624939c43abc81ae10b9ae03, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d432ca2f624939c43abc81ae10b9ae03, type: 3}
+      propertyPath: m_Name
+      value: Modulare asset Road hill
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d432ca2f624939c43abc81ae10b9ae03, type: 3}
+--- !u!4 &6832538725313803761 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d432ca2f624939c43abc81ae10b9ae03, type: 3}
+  m_PrefabInstance: {fileID: 6438094370948289050}
+  m_PrefabAsset: {fileID: 0}
