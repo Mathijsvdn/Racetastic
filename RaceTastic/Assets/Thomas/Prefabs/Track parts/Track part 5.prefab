@@ -1,0 +1,1985 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &978607417027970853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 978607417027970850}
+  m_Layer: 0
+  m_Name: Track part 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &978607417027970850
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978607417027970853}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1160.3523, y: 202.14333, z: -21.54335}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7060776958860134746}
+  - {fileID: 3131152755174203943}
+  - {fileID: 7060776959561525775}
+  - {fileID: 7060776958859073262}
+  - {fileID: 3131152753779561723}
+  - {fileID: 7060776958948531153}
+  - {fileID: 7060776960097170264}
+  - {fileID: 3131152754209730733}
+  - {fileID: 7060776958771587535}
+  - {fileID: 7060776960205258923}
+  - {fileID: 3131152755276432465}
+  - {fileID: 7060776958903312997}
+  - {fileID: 7060776959828505372}
+  - {fileID: 3131152753765365448}
+  - {fileID: 7060776959559820820}
+  - {fileID: 7060776959234665852}
+  - {fileID: 3131152755590829720}
+  - {fileID: 7060776959643930715}
+  - {fileID: 7060776960073856254}
+  - {fileID: 3131152754651710075}
+  - {fileID: 7060776959847490261}
+  - {fileID: 7060776959557415395}
+  - {fileID: 3131152754097901936}
+  - {fileID: 8366294848691459556}
+  - {fileID: 7797549361209114437}
+  - {fileID: 1046039527560498702}
+  - {fileID: 1046039527500329619}
+  - {fileID: 7060776959034767218}
+  - {fileID: 3131152754947027722}
+  - {fileID: 7797549360403317039}
+  - {fileID: 8366294849349803303}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &978607415831863500
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 978607417027970850}
+    m_Modifications:
+    - target: {fileID: 6816387228502424741, guid: 4077dae925c699944a650e0330f76543, type: 3}
+      propertyPath: m_Name
+      value: Modulare asset Road Lang stuk
+      objectReference: {fileID: 0}
+    - target: {fileID: 8759424946260966891, guid: 4077dae925c699944a650e0330f76543, type: 3}
+      propertyPath: m_RootOrder
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8759424946260966891, guid: 4077dae925c699944a650e0330f76543, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -228.3523
+      objectReference: {fileID: 0}
+    - target: {fileID: 8759424946260966891, guid: 4077dae925c699944a650e0330f76543, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -202.14333
+      objectReference: {fileID: 0}
+    - target: {fileID: 8759424946260966891, guid: 4077dae925c699944a650e0330f76543, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 92.54335
+      objectReference: {fileID: 0}
+    - target: {fileID: 8759424946260966891, guid: 4077dae925c699944a650e0330f76543, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8759424946260966891, guid: 4077dae925c699944a650e0330f76543, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8759424946260966891, guid: 4077dae925c699944a650e0330f76543, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8759424946260966891, guid: 4077dae925c699944a650e0330f76543, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8759424946260966891, guid: 4077dae925c699944a650e0330f76543, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8759424946260966891, guid: 4077dae925c699944a650e0330f76543, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8759424946260966891, guid: 4077dae925c699944a650e0330f76543, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4077dae925c699944a650e0330f76543, type: 3}
+--- !u!4 &8366294849349803303 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8759424946260966891, guid: 4077dae925c699944a650e0330f76543, type: 3}
+  m_PrefabInstance: {fileID: 978607415831863500}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &978607415976157760
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 978607417027970850}
+    m_Modifications:
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -166.0133
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -240.21188
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 92.543365
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5309642366347460105, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_Name
+      value: Modulare asset Road hill (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+--- !u!4 &3131152755276432465 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+  m_PrefabInstance: {fileID: 978607415976157760}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &978607416282493065
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 978607417027970850}
+    m_Modifications:
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -166.0133
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -257.13123
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 92.54337
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5309642366347460105, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_Name
+      value: Modulare asset Road hill (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+--- !u!4 &3131152755590829720 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+  m_PrefabInstance: {fileID: 978607416282493065}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &978607416379258836
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 978607417027970850}
+    m_Modifications:
+    - target: {fileID: 1451189347369583091, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_Name
+      value: Modulare asset Road Korte bocht (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -101.62317
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -227.52235
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 133.06439
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+--- !u!4 &7060776960097170264 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+  m_PrefabInstance: {fileID: 978607416379258836}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &978607416387011623
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 978607417027970850}
+    m_Modifications:
+    - target: {fileID: 1451189347369583091, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_Name
+      value: Modulare asset Road Korte bocht (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -226.89777
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -235.98203
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 136.57014
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+--- !u!4 &7060776960205258923 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+  m_PrefabInstance: {fileID: 978607416387011623}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &978607416633157209
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 978607417027970850}
+    m_Modifications:
+    - target: {fileID: 1451189347369583091, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_Name
+      value: Modulare asset Road Korte bocht (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -226.89777
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -269.82074
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 136.57016
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+--- !u!4 &7060776959847490261 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+  m_PrefabInstance: {fileID: 978607416633157209}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &978607416647399312
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 978607417027970850}
+    m_Modifications:
+    - target: {fileID: 1451189347369583091, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_Name
+      value: Modulare asset Road Korte bocht (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -101.62317
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -244.44171
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 133.06439
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+--- !u!4 &7060776959828505372 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+  m_PrefabInstance: {fileID: 978607416647399312}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &978607416680268854
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 978607417027970850}
+    m_Modifications:
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -162.50757
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -214.83284
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 177.09117
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5309642366347460105, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_Name
+      value: Modulare asset Road hill (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+--- !u!4 &3131152755174203943 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+  m_PrefabInstance: {fileID: 978607416680268854}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &978607416725001499
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 978607417027970850}
+    m_Modifications:
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_RootOrder
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -166.0133
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -206.37317
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 92.54336
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5309642366347460105, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_Name
+      value: Modulare asset Road hill
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+--- !u!4 &3131152754947027722 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+  m_PrefabInstance: {fileID: 978607416725001499}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &978607416792150130
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 978607417027970850}
+    m_Modifications:
+    - target: {fileID: 1451189347369583091, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_Name
+      value: Modulare asset Road Korte bocht (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -145.6499
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -261.36108
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 92.54337
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+--- !u!4 &7060776960073856254 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+  m_PrefabInstance: {fileID: 978607416792150130}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &978607416913245551
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 978607417027970850}
+    m_Modifications:
+    - target: {fileID: 1451189347369583091, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_Name
+      value: Modulare asset Road Korte bocht (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -182.87097
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -269.82074
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 177.09117
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+--- !u!4 &7060776959557415395 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+  m_PrefabInstance: {fileID: 978607416913245551}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &978607416915583640
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 978607417027970850}
+    m_Modifications:
+    - target: {fileID: 1451189347369583091, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_Name
+      value: Modulare asset Road Korte bocht (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -182.87097
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -252.9014
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 177.09117
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+--- !u!4 &7060776959559820820 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+  m_PrefabInstance: {fileID: 978607416915583640}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &978607416917552771
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 978607417027970850}
+    m_Modifications:
+    - target: {fileID: 1451189347369583091, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_Name
+      value: Modulare asset Road Korte bocht (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -226.89777
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -219.06268
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 136.57014
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+--- !u!4 &7060776959561525775 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+  m_PrefabInstance: {fileID: 978607416917552771}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &978607416966206679
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 978607417027970850}
+    m_Modifications:
+    - target: {fileID: 1451189347369583091, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_Name
+      value: Modulare asset Road Korte bocht (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -101.62317
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -261.36108
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 133.06439
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+--- !u!4 &7060776959643930715 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+  m_PrefabInstance: {fileID: 978607416966206679}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &978607417057515196
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 978607417027970850}
+    m_Modifications:
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -162.50757
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -231.7522
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 177.09117
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5309642366347460105, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_Name
+      value: Modulare asset Road hill (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+--- !u!4 &3131152754209730733 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+  m_PrefabInstance: {fileID: 978607417057515196}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &978607417138015218
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 978607417027970850}
+    m_Modifications:
+    - target: {fileID: 220941547263121761, guid: 514368e68023c59458ef34804c6c52b4, type: 3}
+      propertyPath: m_RootOrder
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 220941547263121761, guid: 514368e68023c59458ef34804c6c52b4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -90.76233
+      objectReference: {fileID: 0}
+    - target: {fileID: 220941547263121761, guid: 514368e68023c59458ef34804c6c52b4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -272.71332
+      objectReference: {fileID: 0}
+    - target: {fileID: 220941547263121761, guid: 514368e68023c59458ef34804c6c52b4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 92.54338
+      objectReference: {fileID: 0}
+    - target: {fileID: 220941547263121761, guid: 514368e68023c59458ef34804c6c52b4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 220941547263121761, guid: 514368e68023c59458ef34804c6c52b4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 220941547263121761, guid: 514368e68023c59458ef34804c6c52b4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 220941547263121761, guid: 514368e68023c59458ef34804c6c52b4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 220941547263121761, guid: 514368e68023c59458ef34804c6c52b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 220941547263121761, guid: 514368e68023c59458ef34804c6c52b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 220941547263121761, guid: 514368e68023c59458ef34804c6c52b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4541257680783625990, guid: 514368e68023c59458ef34804c6c52b4, type: 3}
+      propertyPath: m_Name
+      value: Portal
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 514368e68023c59458ef34804c6c52b4, type: 3}
+--- !u!4 &1046039527500329619 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 220941547263121761, guid: 514368e68023c59458ef34804c6c52b4, type: 3}
+  m_PrefabInstance: {fileID: 978607417138015218}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &978607417220437871
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 978607417027970850}
+    m_Modifications:
+    - target: {fileID: 220941547263121761, guid: 514368e68023c59458ef34804c6c52b4, type: 3}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 220941547263121761, guid: 514368e68023c59458ef34804c6c52b4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -240.38232
+      objectReference: {fileID: 0}
+    - target: {fileID: 220941547263121761, guid: 514368e68023c59458ef34804c6c52b4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -196.52333
+      objectReference: {fileID: 0}
+    - target: {fileID: 220941547263121761, guid: 514368e68023c59458ef34804c6c52b4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 92.54335
+      objectReference: {fileID: 0}
+    - target: {fileID: 220941547263121761, guid: 514368e68023c59458ef34804c6c52b4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 220941547263121761, guid: 514368e68023c59458ef34804c6c52b4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 220941547263121761, guid: 514368e68023c59458ef34804c6c52b4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 220941547263121761, guid: 514368e68023c59458ef34804c6c52b4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 220941547263121761, guid: 514368e68023c59458ef34804c6c52b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 220941547263121761, guid: 514368e68023c59458ef34804c6c52b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 220941547263121761, guid: 514368e68023c59458ef34804c6c52b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4541257680783625990, guid: 514368e68023c59458ef34804c6c52b4, type: 3}
+      propertyPath: m_Name
+      value: Portal (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 514368e68023c59458ef34804c6c52b4, type: 3}
+--- !u!4 &1046039527560498702 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 220941547263121761, guid: 514368e68023c59458ef34804c6c52b4, type: 3}
+  m_PrefabInstance: {fileID: 978607417220437871}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &978607417236317290
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 978607417027970850}
+    m_Modifications:
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -166.0133
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -274.0506
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 92.54337
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5309642366347460105, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_Name
+      value: Modulare asset Road hill (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+--- !u!4 &3131152754651710075 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+  m_PrefabInstance: {fileID: 978607417236317290}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &978607417270675471
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 978607417027970850}
+    m_Modifications:
+    - target: {fileID: 6816387228502424741, guid: 4077dae925c699944a650e0330f76543, type: 3}
+      propertyPath: m_Name
+      value: Modulare asset Road Lang stuk (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8759424946260966891, guid: 4077dae925c699944a650e0330f76543, type: 3}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 8759424946260966891, guid: 4077dae925c699944a650e0330f76543, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -145.6499
+      objectReference: {fileID: 0}
+    - target: {fileID: 8759424946260966891, guid: 4077dae925c699944a650e0330f76543, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -278.28046
+      objectReference: {fileID: 0}
+    - target: {fileID: 8759424946260966891, guid: 4077dae925c699944a650e0330f76543, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 92.54337
+      objectReference: {fileID: 0}
+    - target: {fileID: 8759424946260966891, guid: 4077dae925c699944a650e0330f76543, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8759424946260966891, guid: 4077dae925c699944a650e0330f76543, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8759424946260966891, guid: 4077dae925c699944a650e0330f76543, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8759424946260966891, guid: 4077dae925c699944a650e0330f76543, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8759424946260966891, guid: 4077dae925c699944a650e0330f76543, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8759424946260966891, guid: 4077dae925c699944a650e0330f76543, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8759424946260966891, guid: 4077dae925c699944a650e0330f76543, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4077dae925c699944a650e0330f76543, type: 3}
+--- !u!4 &8366294848691459556 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8759424946260966891, guid: 4077dae925c699944a650e0330f76543, type: 3}
+  m_PrefabInstance: {fileID: 978607417270675471}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &978607417380796719
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 978607417027970850}
+    m_Modifications:
+    - target: {fileID: 6239772562461430878, guid: 279190b754200db45968bdbd8fd6ed8b, type: 3}
+      propertyPath: m_Name
+      value: Modular assets 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7035400618510481408, guid: 279190b754200db45968bdbd8fd6ed8b, type: 3}
+      propertyPath: m_RootOrder
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 7035400618510481408, guid: 279190b754200db45968bdbd8fd6ed8b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -228.3523
+      objectReference: {fileID: 0}
+    - target: {fileID: 7035400618510481408, guid: 279190b754200db45968bdbd8fd6ed8b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -202.14333
+      objectReference: {fileID: 0}
+    - target: {fileID: 7035400618510481408, guid: 279190b754200db45968bdbd8fd6ed8b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 92.54335
+      objectReference: {fileID: 0}
+    - target: {fileID: 7035400618510481408, guid: 279190b754200db45968bdbd8fd6ed8b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7035400618510481408, guid: 279190b754200db45968bdbd8fd6ed8b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7035400618510481408, guid: 279190b754200db45968bdbd8fd6ed8b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7035400618510481408, guid: 279190b754200db45968bdbd8fd6ed8b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7035400618510481408, guid: 279190b754200db45968bdbd8fd6ed8b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7035400618510481408, guid: 279190b754200db45968bdbd8fd6ed8b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7035400618510481408, guid: 279190b754200db45968bdbd8fd6ed8b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 279190b754200db45968bdbd8fd6ed8b, type: 3}
+--- !u!4 &7797549360403317039 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7035400618510481408, guid: 279190b754200db45968bdbd8fd6ed8b, type: 3}
+  m_PrefabInstance: {fileID: 978607417380796719}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &978607417418125529
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 978607417027970850}
+    m_Modifications:
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -162.50757
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -248.67157
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 177.09117
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5309642366347460105, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_Name
+      value: Modulare asset Road hill (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+--- !u!4 &3131152753765365448 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+  m_PrefabInstance: {fileID: 978607417418125529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &978607417430651902
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 978607417027970850}
+    m_Modifications:
+    - target: {fileID: 1451189347369583091, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_Name
+      value: Modulare asset Road Korte bocht
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_RootOrder
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -145.6499
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -210.603
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 92.54336
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+--- !u!4 &7060776959034767218 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+  m_PrefabInstance: {fileID: 978607417430651902}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &978607417437385450
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 978607417027970850}
+    m_Modifications:
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -166.0133
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -223.29251
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 92.543365
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5309642366347460105, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_Name
+      value: Modulare asset Road hill (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+--- !u!4 &3131152753779561723 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+  m_PrefabInstance: {fileID: 978607417437385450}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &978607417630812656
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 978607417027970850}
+    m_Modifications:
+    - target: {fileID: 1451189347369583091, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_Name
+      value: Modulare asset Road Korte bocht (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -226.89777
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -252.9014
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 136.57016
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+--- !u!4 &7060776959234665852 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+  m_PrefabInstance: {fileID: 978607417630812656}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &978607417649530693
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 978607417027970850}
+    m_Modifications:
+    - target: {fileID: 6239772562461430878, guid: 279190b754200db45968bdbd8fd6ed8b, type: 3}
+      propertyPath: m_Name
+      value: Modular assets 2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7035400618510481408, guid: 279190b754200db45968bdbd8fd6ed8b, type: 3}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7035400618510481408, guid: 279190b754200db45968bdbd8fd6ed8b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -103.67432
+      objectReference: {fileID: 0}
+    - target: {fileID: 7035400618510481408, guid: 279190b754200db45968bdbd8fd6ed8b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -278.28046
+      objectReference: {fileID: 0}
+    - target: {fileID: 7035400618510481408, guid: 279190b754200db45968bdbd8fd6ed8b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 92.54338
+      objectReference: {fileID: 0}
+    - target: {fileID: 7035400618510481408, guid: 279190b754200db45968bdbd8fd6ed8b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7035400618510481408, guid: 279190b754200db45968bdbd8fd6ed8b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7035400618510481408, guid: 279190b754200db45968bdbd8fd6ed8b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7035400618510481408, guid: 279190b754200db45968bdbd8fd6ed8b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7035400618510481408, guid: 279190b754200db45968bdbd8fd6ed8b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7035400618510481408, guid: 279190b754200db45968bdbd8fd6ed8b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 7035400618510481408, guid: 279190b754200db45968bdbd8fd6ed8b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 279190b754200db45968bdbd8fd6ed8b, type: 3}
+--- !u!4 &7797549361209114437 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7035400618510481408, guid: 279190b754200db45968bdbd8fd6ed8b, type: 3}
+  m_PrefabInstance: {fileID: 978607417649530693}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &978607417704344899
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 978607417027970850}
+    m_Modifications:
+    - target: {fileID: 1451189347369583091, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_Name
+      value: Modulare asset Road Korte bocht (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -182.87097
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -235.98203
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 177.09117
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+--- !u!4 &7060776958771587535 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+  m_PrefabInstance: {fileID: 978607417704344899}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &978607417724850786
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 978607417027970850}
+    m_Modifications:
+    - target: {fileID: 1451189347369583091, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_Name
+      value: Modulare asset Road Korte bocht (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -182.87097
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -219.06268
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 177.09117
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+--- !u!4 &7060776958859073262 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+  m_PrefabInstance: {fileID: 978607417724850786}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &978607417725849046
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 978607417027970850}
+    m_Modifications:
+    - target: {fileID: 1451189347369583091, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_Name
+      value: Modulare asset Road Korte bocht (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -101.62317
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -210.603
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 133.06439
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+--- !u!4 &7060776958860134746 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+  m_PrefabInstance: {fileID: 978607417725849046}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &978607417742030689
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 978607417027970850}
+    m_Modifications:
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -162.50757
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -265.5909
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 177.09117
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5309642366347460105, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+      propertyPath: m_Name
+      value: Modulare asset Road hill (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+--- !u!4 &3131152754097901936 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2801415533934585361, guid: 48851d338a4457a4e81ed2f2b0e7d05b, type: 3}
+  m_PrefabInstance: {fileID: 978607417742030689}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &978607417836332777
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 978607417027970850}
+    m_Modifications:
+    - target: {fileID: 1451189347369583091, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_Name
+      value: Modulare asset Road Korte bocht (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -145.6499
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -244.44171
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 92.543365
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+--- !u!4 &7060776958903312997 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+  m_PrefabInstance: {fileID: 978607417836332777}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &978607417914842973
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 978607417027970850}
+    m_Modifications:
+    - target: {fileID: 1451189347369583091, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_Name
+      value: Modulare asset Road Korte bocht (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -145.6499
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -227.52235
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 92.543365
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+--- !u!4 &7060776958948531153 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7811596353498481804, guid: 293c647f858011a43b904e4611a3f6db, type: 3}
+  m_PrefabInstance: {fileID: 978607417914842973}
+  m_PrefabAsset: {fileID: 0}
