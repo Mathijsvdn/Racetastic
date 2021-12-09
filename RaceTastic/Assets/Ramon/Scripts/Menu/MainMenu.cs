@@ -4,9 +4,16 @@ using UnityEngine;
 
 public class MainMenu : MonoBehaviour
 {
+    private LoadNewScene scene;
+
     public GameObject menuScreen, startScreen, background;
     private bool hasPressedAnyKey;
     public bool AnyKeyEnabled;
+
+    void Start()
+    {
+        scene = GetComponent<LoadNewScene>();    
+    }
 
     void Update()
     {
@@ -27,14 +34,16 @@ public class MainMenu : MonoBehaviour
         }
     }
 
-    public void SingleplayerButton()
+    public void SingleplayerButton(int index)
     {
         Debug.Log("Singleplayer Started!");
+        scene.StartCoroutine("LoadLevel", index);
     }
 
-    public void MultiplayerButton()
+    public void MultiplayerButton(int index)
     {
         Debug.Log("Multiplayer Started!");
+        scene.StartCoroutine("LoadLevel", index);
     }
 
     public void ExitButton()
