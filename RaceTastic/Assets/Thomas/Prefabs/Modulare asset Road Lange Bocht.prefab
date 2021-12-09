@@ -83,6 +83,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 2355f41667e698d46b57f3f15d6b184a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d1d4ef5a7feae4d40985fd2d041ac360, type: 2}
     - target: {fileID: 919132149155446097, guid: 2355f41667e698d46b57f3f15d6b184a, type: 3}
       propertyPath: m_Name
       value: Modulare asset Road Lange Bocht Railing
@@ -145,6 +149,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b63a16878fef54f49a7891d1cfbde34a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: affd400134fc74143a189d951023ef54, type: 2}
     - target: {fileID: 919132149155446097, guid: b63a16878fef54f49a7891d1cfbde34a, type: 3}
       propertyPath: m_Name
       value: Modulare asset Road Lange Bocht
