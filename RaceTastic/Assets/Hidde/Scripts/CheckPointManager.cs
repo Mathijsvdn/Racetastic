@@ -48,7 +48,11 @@ public class CheckPointManager : MonoBehaviour
         int sec = (int)Mathf.Round(timer.seconds);
         int min = (int)Mathf.Round(timer.minutes);
 
-        FindObjectOfType<ScoreTracker>().SetScore(sec, min);
+        ScoreTracker st = FindObjectOfType<ScoreTracker>();
+        if(st != null)
+        {
+            st.SetScore(sec, min);
+        }
     }
 
     private IEnumerator ResetRounds()
