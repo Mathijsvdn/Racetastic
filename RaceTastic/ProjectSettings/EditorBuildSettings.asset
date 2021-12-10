@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Hidde/Linked/NameConfirm.unity
-    guid: adee5f0b6eb478c4b9faee9978b6eac1
+    path: Assets/Scenes/Startup.unity
+    guid: 9ec217ab7a93ee34dabc74e231511dc3
   - enabled: 1
-    path: Assets/Hidde/Linked/Hidde1.unity
-    guid: 85098cf1a8ee8e44f83679b322f0cb83
+    path: Assets/Scenes/Main Scene.unity
+    guid: 7d126c4a5870fb241936993dc0abde1d
+  - enabled: 1
+    path: Assets/Scenes/Menu Scene.unity
+    guid: 57af02f268bc50a47823a0cc0c9485f5
   m_configObjects: {}
