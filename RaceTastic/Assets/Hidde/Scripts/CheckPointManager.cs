@@ -18,6 +18,8 @@ public class CheckPointManager : MonoBehaviour
 
     public DisplaySpeed display;
 
+    public GameObject finishCanvas;
+
     private void Awake()
     {
         instance = this;
@@ -50,6 +52,9 @@ public class CheckPointManager : MonoBehaviour
 
         int sec = (int)Mathf.Round(timer.seconds);
         int min = (int)Mathf.Round(timer.minutes);
+
+        finishCanvas.SetActive(true);
+        finishCanvas.GetComponent<Finish>().Activate();
 
         ScoreTracker st = FindObjectOfType<ScoreTracker>();
         if(st != null)
