@@ -123,6 +123,79 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &1359777
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 3fce9c8ab2d06fb4d871d91e0330fe3d, type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3fce9c8ab2d06fb4d871d91e0330fe3d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.301
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3fce9c8ab2d06fb4d871d91e0330fe3d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3fce9c8ab2d06fb4d871d91e0330fe3d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -176.895
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3fce9c8ab2d06fb4d871d91e0330fe3d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.95811737
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3fce9c8ab2d06fb4d871d91e0330fe3d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3fce9c8ab2d06fb4d871d91e0330fe3d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.28637576
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3fce9c8ab2d06fb4d871d91e0330fe3d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3fce9c8ab2d06fb4d871d91e0330fe3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3fce9c8ab2d06fb4d871d91e0330fe3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -33.282
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3fce9c8ab2d06fb4d871d91e0330fe3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7612383538145142034, guid: 3fce9c8ab2d06fb4d871d91e0330fe3d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e570cb091681d68459c9d6d092f8b427, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 3fce9c8ab2d06fb4d871d91e0330fe3d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 472fef78cb40f154c9cae18fb823ac2d, type: 2}
+    - target: {fileID: 919132149155446097, guid: 3fce9c8ab2d06fb4d871d91e0330fe3d, type: 3}
+      propertyPath: m_Name
+      value: Velobike
+      objectReference: {fileID: 0}
+    - target: {fileID: 6004455013125597089, guid: 3fce9c8ab2d06fb4d871d91e0330fe3d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a237551f757507949863fe4ca5c2e6fc, type: 2}
+    - target: {fileID: 6682461523104175830, guid: 3fce9c8ab2d06fb4d871d91e0330fe3d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a237551f757507949863fe4ca5c2e6fc, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3fce9c8ab2d06fb4d871d91e0330fe3d, type: 3}
 --- !u!1 &83597283
 GameObject:
   m_ObjectHideFlags: 0
