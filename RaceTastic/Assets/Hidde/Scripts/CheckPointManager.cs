@@ -16,6 +16,8 @@ public class CheckPointManager : MonoBehaviour
 
     private int lapsDone;
 
+    public DisplaySpeed display;
+
     private void Awake()
     {
         instance = this;
@@ -33,6 +35,7 @@ public class CheckPointManager : MonoBehaviour
         {
             StartCoroutine(ResetRounds());
             lapsDone++;
+            display.UpdateLapCount(lapsDone);
 
             if (lapsDone == laps)
             {

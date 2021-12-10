@@ -9,11 +9,14 @@ public class CheckPoint : MonoBehaviour
 
     private bool isTriggered;
 
+    private CheckpointSFX sfx;
+
     private void Start()
     {
         // Tell the checkpointmanager to add this checkpoint to the list
         CheckPointManager.instance.AddCheckPoint(this);
         defaultColor = GetComponent<Renderer>().material.color;
+        sfx = GetComponent<CheckpointSFX>();
     }
 
     private void Update()
@@ -42,13 +45,15 @@ public class CheckPoint : MonoBehaviour
 
                 other.GetComponentInParent<CarRespawn>().SetRespawnPoint(transform);
 
+                sfx.OnTriggerCheckpoint();
+
                 isTriggered = true;
             }
         }
     }
-
     public void SetTriggeredState(bool state)
     {
         isTriggered = state;
+        sfx.OnResetCheckpoint();
     }
 }
