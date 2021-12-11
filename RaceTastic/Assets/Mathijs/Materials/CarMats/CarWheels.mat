@@ -42,7 +42,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseColorMap:
-        m_Texture: {fileID: 2800000, guid: 4a0d3203454b50f47a8744b0dd29efe8, type: 3}
+        m_Texture: {fileID: 2800000, guid: 826087f20d8a990479040aa3d59cb89c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BentNormalMap:
@@ -62,7 +62,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissiveColorMap:
-        m_Texture: {fileID: 2800000, guid: 0e440ff556681d549bc4820548f4e5bf, type: 3}
+        m_Texture: {fileID: 2800000, guid: bc6467b5e1539b64ba71054ec6f58c4e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _HeightMap:
@@ -78,11 +78,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 4a0d3203454b50f47a8744b0dd29efe8, type: 3}
+        m_Texture: {fileID: 2800000, guid: 826087f20d8a990479040aa3d59cb89c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskMap:
-        m_Texture: {fileID: 2800000, guid: 9cd80373a695f8c4eaa3eb873be01393, type: 3}
+        m_Texture: {fileID: 2800000, guid: 30f4cbbad6600144886d0dd72c0d52e2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
@@ -90,7 +90,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMapOS:
-        m_Texture: {fileID: 2800000, guid: 64b9af3609ea1fa44b68a146aff01756, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7232e03c3cc2a144194797c746a5f10f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecularColorMap:
