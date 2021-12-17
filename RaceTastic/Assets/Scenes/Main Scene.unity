@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 1481.9727, g: 1836.0449, b: 2430.713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -11312,6 +11312,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 269594afcd2eeb8419554d420461db21, type: 3}
+--- !u!1 &1104443582 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5683610938470039360, guid: 269594afcd2eeb8419554d420461db21, type: 3}
+  m_PrefabInstance: {fileID: 1104443581}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1104443583
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1104443582}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7631291814105297217, guid: 8daf80ab6fd4ea7489ec36301bc5874d, type: 3}
 --- !u!1001 &1114806401
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15527,11 +15546,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6645483464275075340, guid: 9cfcc285f79a0b34181a9dfe00d2a3c7, type: 3}
---- !u!4 &1691351035 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7224355236571234386, guid: d9d9490ab926cd6418aa334987574d83, type: 3}
-  m_PrefabInstance: {fileID: 1771159337}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1703372985 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6344845283789684626, guid: 3309817b3d8d9a942a01d9d070ccc370, type: 3}
@@ -16547,6 +16561,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9d9490ab926cd6418aa334987574d83, type: 3}
+--- !u!4 &1771159338 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6346953890659962487, guid: d9d9490ab926cd6418aa334987574d83, type: 3}
+  m_PrefabInstance: {fileID: 1771159337}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1772286697 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8266500609436199405, guid: 3309817b3d8d9a942a01d9d070ccc370, type: 3}
@@ -17181,7 +17200,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1691351035}
+    m_TransformParent: {fileID: 1771159338}
     m_Modifications:
     - target: {fileID: 950678125342287744, guid: ff7aa1e0a0742b440b6142848e1ac5ad, type: 3}
       propertyPath: orthographic size
@@ -17190,18 +17209,18 @@ PrefabInstance:
     - target: {fileID: 950678125342287745, guid: ff7aa1e0a0742b440b6142848e1ac5ad, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1691351035}
+      objectReference: {fileID: 1771159338}
     - target: {fileID: 950678125342287748, guid: ff7aa1e0a0742b440b6142848e1ac5ad, type: 3}
       propertyPath: m_Name
       value: Minimap Camera
       objectReference: {fileID: 0}
     - target: {fileID: 950678125342287749, guid: ff7aa1e0a0742b440b6142848e1ac5ad, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 950678125342287749, guid: ff7aa1e0a0742b440b6142848e1ac5ad, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 950678125342287749, guid: ff7aa1e0a0742b440b6142848e1ac5ad, type: 3}
       propertyPath: m_LocalPosition.y
