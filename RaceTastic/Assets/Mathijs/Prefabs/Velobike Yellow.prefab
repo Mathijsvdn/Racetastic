@@ -254,6 +254,7 @@ GameObject:
   - component: {fileID: 8309073034275400900}
   - component: {fileID: 4962995874793530209}
   - component: {fileID: 7135088543308502955}
+  - component: {fileID: -5329329549768602577}
   m_Layer: 0
   m_Name: Velobike Yellow
   m_TagString: Untagged
@@ -269,7 +270,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8648056194628548222}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.54, y: 0, z: 2.79}
+  m_LocalPosition: {x: 0.6321051, y: 0.09246063, z: -6.397781}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8693920167071635429}
@@ -328,6 +329,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-5329329549768602577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8648056194628548222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b465aad95a1296440834cc99828bd033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBeenPurchased: 0
 --- !u!1 &8781629942913712546
 GameObject:
   m_ObjectHideFlags: 0

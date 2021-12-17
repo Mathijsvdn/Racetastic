@@ -90,6 +90,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2449653000207006343}
+  - component: {fileID: 8559458147596577181}
   m_Layer: 0
   m_Name: GaitWagon Gold
   m_TagString: Untagged
@@ -105,7 +106,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3077430518279479357}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 12.62}
+  m_LocalPosition: {x: 0.6321051, y: 0.09246063, z: -6.3977814}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2136978144737047714}
@@ -116,6 +117,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8559458147596577181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3077430518279479357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b465aad95a1296440834cc99828bd033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBeenPurchased: 0
 --- !u!1 &4096572162379265400
 GameObject:
   m_ObjectHideFlags: 0

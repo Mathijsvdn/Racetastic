@@ -335,6 +335,7 @@ GameObject:
   - component: {fileID: 6243951862052459890}
   - component: {fileID: 6992158068969151191}
   - component: {fileID: 5110976440381828637}
+  - component: {fileID: -131165076825987441}
   m_Layer: 0
   m_Name: Velobike Gold
   m_TagString: Untagged
@@ -350,7 +351,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6768111506597269448}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.54, y: 0, z: 12.6}
+  m_LocalPosition: {x: 0.6321051, y: 0.09246063, z: -6.397781}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6723375684387696211}
@@ -409,3 +410,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-131165076825987441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6768111506597269448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b465aad95a1296440834cc99828bd033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBeenPurchased: 0
