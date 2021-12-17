@@ -21,12 +21,11 @@ public class ChangeSkin : MonoBehaviour
 
         skinIndex += index;
 
-        if (skinIndex < maxIndex)
+        if (skinIndex >= maxIndex)
         {
             skinIndex = minIndex;
         }
-
-        if (skinIndex > minIndex)
+        else if (skinIndex <= minIndex)
         {
             skinIndex = maxIndex;
         }
