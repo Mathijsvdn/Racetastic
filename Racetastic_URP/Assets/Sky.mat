@@ -171,7 +171,7 @@ Material:
     - _EnableFogOnTransparent: 1
     - _EnableGeometricSpecularAA: 0
     - _EnergyConservingSpecularColor: 1
-    - _Exposure: 1.16
+    - _Exposure: 3
     - _HeightAmplitude: 0.02
     - _HeightCenter: 0.5
     - _HeightMapParametrization: 0
@@ -219,7 +219,7 @@ Material:
     - _StencilWriteMaskMV: 40
     - _SubsurfaceMask: 1
     - _SunDisk: 2
-    - _SunSize: 0.1
+    - _SunSize: 1
     - _SunSizeConvergence: 5.83
     - _SupportDecals: 1
     - _SurfaceType: 0
@@ -252,7 +252,7 @@ Material:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
-    - _GroundColor: {r: 0.19819793, g: 0.18556428, b: 0.2830189, a: 1}
+    - _GroundColor: {r: 0.047169805, g: 0.047169805, b: 0.047169805, a: 1}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _SkyTint: {r: 1, g: 0, b: 0.8506589, a: 1}
