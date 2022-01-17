@@ -5,7 +5,7 @@ using UnityEngine;
 public class Minimap : MonoBehaviour
 {
     public Transform player;
-    public Vector3 offset;
+    public float offsetPos, offsetRot;
 
     private void LateUpdate()
     {
@@ -13,12 +13,11 @@ public class Minimap : MonoBehaviour
         Vector3 newPosition = player.position;
         newPosition.y = transform.position.y;
         transform.position = newPosition;
-
-        transform.rotation = Quaternion.Euler(90f, player.eulerAngles.y, 0f);
         */
 
         Vector3 newPosition = player.position;
-        newPosition.y += offset.y;
+        newPosition.y += offsetPos;
         transform.position = newPosition;
+        transform.rotation = Quaternion.Euler(90f, player.eulerAngles.y + offsetRot, 0f);
     }
 }
