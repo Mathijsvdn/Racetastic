@@ -12,7 +12,7 @@ public class CheckPointManager : MonoBehaviour
 
     private int checkPointsLeft;
 
-    private List<CheckPoint> checkPoints = new List<CheckPoint>();
+    public List<CheckPoint> checkPoints = new List<CheckPoint>();
 
     private int lapsDone;
 
