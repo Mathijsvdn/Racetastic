@@ -13,8 +13,8 @@ public class ChangeSkin : MonoBehaviour
     private int skinIndex;
     public int maxIndex, minIndex, carMaxIndex, bikeMinIndex;
 
-    public List<float> skinCosts;
-    public float bits;
+    public List<int> skinCosts;
+    public int bits;
 
     public TextMeshProUGUI selectText, bitsText, skinText, vehicleText;
     public string selectString, selectedString, carString, bikeString;
@@ -23,7 +23,9 @@ public class ChangeSkin : MonoBehaviour
     private void Start()
     {
         DontDestroyOnLoad(this);
-        
+
+        bits = PlayerPrefs.GetInt("bits");
+
         selectedVehicle = null;
         vehicleTransform = selectVehicle.transform;
         bitsText.text = "Bits: " + bits;
@@ -111,7 +113,7 @@ public class ChangeSkin : MonoBehaviour
         }
     }
 
-    public void ChargeBits(float amount)
+    public void ChargeBits(int amount)
     {
         if (amount > bits)
         {
@@ -126,7 +128,7 @@ public class ChangeSkin : MonoBehaviour
         selectText.text = selectString;
     }
 
-    public void AddBits(float amount)
+    public void AddBits(int amount)
     {
         bits += amount;
     }
