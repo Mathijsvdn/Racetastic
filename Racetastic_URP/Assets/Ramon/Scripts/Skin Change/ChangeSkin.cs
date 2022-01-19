@@ -26,7 +26,7 @@ public class ChangeSkin : MonoBehaviour
 
         bits = PlayerPrefs.GetInt("bits");
 
-        selectedVehicle = null;
+        //selectedVehicle = null;
         vehicleTransform = selectVehicle.transform;
         bitsText.text = "Bits: " + bits;
         skinText.text = skinNames[skinIndex];
@@ -131,5 +131,11 @@ public class ChangeSkin : MonoBehaviour
     public void AddBits(int amount)
     {
         bits += amount;
+    }
+
+    public void ExitButton(int index)
+    {
+        PlayerPrefs.SetInt("bits", bits);
+        GetComponent<LoadNewScene>().StartCoroutine("LoadLevel", index);
     }
 }
