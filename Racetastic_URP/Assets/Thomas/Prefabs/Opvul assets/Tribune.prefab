@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1726189623623817640
 Transform:
@@ -94,10 +94,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tribune
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 381bf24cde7fa48448440d6611c0d912, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2400857337708273952, guid: 381bf24cde7fa48448440d6611c0d912, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2901866058409013666, guid: 381bf24cde7fa48448440d6611c0d912, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 5a51bfe8a53159a45a82ef9d614a3c38, type: 2}
+    - target: {fileID: 4118324288913879603, guid: 381bf24cde7fa48448440d6611c0d912, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904528340234677745, guid: 381bf24cde7fa48448440d6611c0d912, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 381bf24cde7fa48448440d6611c0d912, type: 3}
 --- !u!4 &6024046593172452383 stripped
