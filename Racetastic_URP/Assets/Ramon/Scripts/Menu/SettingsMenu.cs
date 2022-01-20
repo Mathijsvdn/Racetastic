@@ -16,6 +16,7 @@ public class SettingsMenu : MonoBehaviour
         masterString = masterText.text;
         sfxString = sfxText.text;
         musicString = musicText.text;
+
         SetMasterVolume(defaultVolume);
         SetSFXVolume(defaultVolume);
         SetMusicVolume(defaultVolume);

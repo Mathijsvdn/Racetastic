@@ -7,6 +7,6 @@ public class Skins : MonoBehaviour
     public bool hasBeenPurchased;
     private void Start()
     {
-        DontDestroyOnLoad(this);
+        //DontDestroyOnLoad(this);
     }
 }

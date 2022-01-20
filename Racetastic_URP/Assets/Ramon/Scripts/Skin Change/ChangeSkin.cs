@@ -20,9 +20,16 @@ public class ChangeSkin : MonoBehaviour
     public string selectString, selectedString, carString, bikeString;
     public List<string> skinNames;
 
+    public bool resetEverything;
+
     private void Start()
     {
         DontDestroyOnLoad(this);
+
+        if (resetEverything)
+        {
+            ResetEverything();
+        }
 
         bits = PlayerPrefs.GetInt("bits");
 
@@ -137,5 +144,15 @@ public class ChangeSkin : MonoBehaviour
     {
         PlayerPrefs.SetInt("bits", bits);
         GetComponent<LoadNewScene>().StartCoroutine("LoadLevel", index);
+    }
+
+    public void ResetEverything()
+    {
+        PlayerPrefs.SetInt("bits", 0);
+
+        foreach(GameObject skin in skins)
+        {
+            skin.GetComponent<Skins>().hasBeenPurchased = false;
+        }
     }
 }
