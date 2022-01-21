@@ -8,12 +8,23 @@ public class CarController : MonoBehaviour
     public float downForce, maxBoostTime;
     public float maxSpeed, maxBrakeTorque;
     public float maxSteeringAngle;
+    public Transform spawnPos;
+    public Animator anims;
 
     private Rigidbody rb;
 
     private float boostTimer;
 
     private bool isBoosting;
+
+    private void Awake()
+    {
+        Selected sl = FindObjectOfType<Selected>();
+        if (sl != null)
+        {
+            Instantiate(sl.selectedVehicle, spawnPos.position, Quaternion.Euler(spawnPos.rotation.x, 0f, spawnPos.rotation.z), spawnPos);
+        }
+    }
 
     private void Start()
     {
@@ -26,8 +37,10 @@ public class CarController : MonoBehaviour
         if (!isBoosting)
         {
             // Get the input of the player
-            float motor = maxSpeed * Input.GetAxisRaw("Vertical"); // Gets the forward input for driving and braking
-            float steering = maxSteeringAngle * Input.GetAxisRaw("Horizontal"); // Gets the right input for steering
+            float motor = maxSpeed * Input.GetAxis("Vertical"); // Gets the forward input for driving and braking
+            float steering = maxSteeringAngle * Input.GetAxis("Horizontal"); // Gets the right input for steering
+
+            anims.SetFloat("Blend", steering / maxSteeringAngle);
 
             foreach (var axleInfo in axleInfos)
             {
