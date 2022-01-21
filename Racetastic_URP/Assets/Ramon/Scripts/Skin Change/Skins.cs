@@ -4,9 +4,5 @@ using UnityEngine;
 
 public class Skins : MonoBehaviour
 {
-    public bool hasBeenPurchased;
-    private void Start()
-    {
-        //DontDestroyOnLoad(this);
-    }
+    public int hasBeenPurchased;
 }

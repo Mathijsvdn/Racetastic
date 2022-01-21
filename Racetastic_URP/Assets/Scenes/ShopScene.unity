@@ -3876,6 +3876,8 @@ MonoBehaviour:
   - Purple
   - Yellow
   - Gold
+  yes: 1
+  no: 0
   resetEverything: 0
 --- !u!4 &1921918465
 Transform:

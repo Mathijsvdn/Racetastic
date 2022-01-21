@@ -19,6 +19,7 @@ public class ChangeSkin : MonoBehaviour
     public TextMeshProUGUI selectText, bitsText, skinText, vehicleText;
     public string selectString, selectedString, carString, bikeString;
     public List<string> skinNames;
+    public int yes, no;
 
     public bool resetEverything;
 
@@ -32,6 +33,12 @@ public class ChangeSkin : MonoBehaviour
         }
 
         bits = PlayerPrefs.GetInt("bits");
+        PlayerPrefs.SetInt("Skin Index", skinIndex);
+
+        foreach (GameObject skin in skins)
+        {
+            skin.GetComponent<Skins>().hasBeenPurchased = PlayerPrefs.GetInt("Skin " + skinIndex.ToString());
+        }
 
         //selectedVehicle = null;
         vehicleTransform = selectVehicle.transform;
@@ -78,9 +85,9 @@ public class ChangeSkin : MonoBehaviour
 
     public void CheckIfPurchased()
     {
-        if (selectVehicle.GetComponent<Skins>().hasBeenPurchased == true)
+        if (selectVehicle.GetComponent<Skins>().hasBeenPurchased == yes)
         {
-            if (selectVehicle == GameObject.Find("Selected Vehicle").GetComponent<Selected>().selectedVehicle)
+            if (skinIndex == PlayerPrefs.GetInt("Skin Index"))
             {
                 selectText.text = selectedString;
             }
@@ -109,10 +116,11 @@ public class ChangeSkin : MonoBehaviour
     {
         Debug.Log("Button Pressed!");
 
-        if (selectVehicle.GetComponent<Skins>().hasBeenPurchased == true)
+        if (selectVehicle.GetComponent<Skins>().hasBeenPurchased == yes)
         {
             selectText.text = selectedString;
             GameObject.Find("Selected Vehicle").GetComponent<Selected>().selectedVehicle = selectVehicle;
+            PlayerPrefs.SetInt("Skin Index", skinIndex);
         }
         else
         {
@@ -131,7 +139,8 @@ public class ChangeSkin : MonoBehaviour
 
         bits -= amount;
         bitsText.text = "Bits: " + bits;
-        skins[skinIndex].GetComponent<Skins>().hasBeenPurchased = true;
+        skins[skinIndex].GetComponent<Skins>().hasBeenPurchased = yes;
+        PlayerPrefs.SetInt("Skin " + skinIndex.ToString(), yes);
         selectText.text = selectString;
     }
 
@@ -143,6 +152,7 @@ public class ChangeSkin : MonoBehaviour
     public void ExitButton(int index)
     {
         PlayerPrefs.SetInt("bits", bits);
+
         GetComponent<LoadNewScene>().StartCoroutine("LoadLevel", index);
     }
 
@@ -160,9 +170,11 @@ public class ChangeSkin : MonoBehaviour
 
         foreach (GameObject skin in skins)
         {
-            skin.GetComponent<Skins>().hasBeenPurchased = false;
+            skin.GetComponent<Skins>().hasBeenPurchased = no;
         }
 
         GameObject.Find("Selected Vehicle").GetComponent<Selected>().selectedVehicle = skins[defaultSkinIndex];
     }
+
+    //End my suffering.
 }
