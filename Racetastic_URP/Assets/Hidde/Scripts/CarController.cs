@@ -10,6 +10,7 @@ public class CarController : MonoBehaviour
     public float maxSteeringAngle;
     public Transform spawnPos;
     public Animator anims;
+    public DisplaySpeed speedometer;
 
     private Rigidbody rb;
 
@@ -41,6 +42,15 @@ public class CarController : MonoBehaviour
             float steering = maxSteeringAngle * Input.GetAxis("Horizontal"); // Gets the right input for steering
 
             anims.SetFloat("Blend", steering / maxSteeringAngle);
+
+            if(motor >= 0)
+            {
+                speedometer.speedText.text = "Speed: " + (motor / 4).ToString("0") + "u/h";
+            }
+            else
+            {
+                speedometer.speedText.text = "Speed: Rev";
+            }
 
             foreach (var axleInfo in axleInfos)
             {

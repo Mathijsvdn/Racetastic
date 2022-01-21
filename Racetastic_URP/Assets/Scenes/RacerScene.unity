@@ -13796,6 +13796,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -58.699997
       objectReference: {fileID: 0}
+    - target: {fileID: 670846247169202704, guid: c5977d98e7551224180bccf96733929c, type: 3}
+      propertyPath: m_enableWordWrapping
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 670846247169202719, guid: c5977d98e7551224180bccf96733929c, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -33758,6 +33762,7 @@ MonoBehaviour:
   maxSteeringAngle: 30
   spawnPos: {fileID: 405053269}
   anims: {fileID: 405053271}
+  speedometer: {fileID: 345863306}
 --- !u!1 &6629857740971884218
 GameObject:
   m_ObjectHideFlags: 0
