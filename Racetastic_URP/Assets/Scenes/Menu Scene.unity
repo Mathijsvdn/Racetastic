@@ -1126,9 +1126,12 @@ MonoBehaviour:
   masterText: {fileID: 391818168}
   sfxText: {fileID: 611211025}
   musicText: {fileID: 1175780515}
+  masterSlider: {fileID: 1880671215}
+  sfxSlider: {fileID: 579902430}
+  musicSlider: {fileID: 271375085}
+  qualityDropdown: {fileID: 1513796309}
   mixer: {fileID: 24100000, guid: 7ff683c59f4abec47b082bd2c37ecb9c, type: 2}
   offset: 80
-  defaultVolume: -20
 --- !u!114 &265982320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8401,11 +8404,11 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Low
+    - m_Text: High
       m_Image: {fileID: 0}
     - m_Text: Medium
       m_Image: {fileID: 0}
-    - m_Text: High
+    - m_Text: Low
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
