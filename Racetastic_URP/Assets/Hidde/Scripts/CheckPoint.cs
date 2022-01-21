@@ -46,6 +46,11 @@ public class CheckPoint : MonoBehaviour
                 other.GetComponentInParent<CarRespawn>().SetRespawnPoint(transform);
 
                 isTriggered = true;
+
+                GetComponent<AudioSource>().Play();
+
+                Debug.Log("checkpoint");
+                //I'm in pain
             }
         }
     }
