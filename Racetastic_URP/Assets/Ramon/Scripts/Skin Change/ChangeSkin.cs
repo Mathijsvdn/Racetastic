@@ -6,12 +6,12 @@ using TMPro;
 public class ChangeSkin : MonoBehaviour
 {
     public List<GameObject> skins;
-    public GameObject selectVehicle, selectedVehicle;
+    public GameObject selectVehicle;
     private GameObject storedVehicle;
     private Transform vehicleTransform;
 
     private int skinIndex;
-    public int maxIndex, minIndex, carMaxIndex, bikeMinIndex;
+    public int maxIndex, minIndex, carMaxIndex, bikeMinIndex, defaultSkinIndex;
 
     public List<int> skinCosts;
     public int bits;
@@ -24,7 +24,7 @@ public class ChangeSkin : MonoBehaviour
 
     private void Start()
     {
-        DontDestroyOnLoad(this);
+        //DontDestroyOnLoad(this);
 
         if (resetEverything)
         {
@@ -80,7 +80,7 @@ public class ChangeSkin : MonoBehaviour
     {
         if (selectVehicle.GetComponent<Skins>().hasBeenPurchased == true)
         {
-            if (selectVehicle == selectedVehicle)
+            if (selectVehicle == GameObject.Find("Selected Vehicle").GetComponent<Selected>().selectedVehicle)
             {
                 selectText.text = selectedString;
             }
@@ -112,7 +112,7 @@ public class ChangeSkin : MonoBehaviour
         if (selectVehicle.GetComponent<Skins>().hasBeenPurchased == true)
         {
             selectText.text = selectedString;
-            selectedVehicle = selectVehicle;
+            GameObject.Find("Selected Vehicle").GetComponent<Selected>().selectedVehicle = selectVehicle;
         }
         else
         {
@@ -146,13 +146,23 @@ public class ChangeSkin : MonoBehaviour
         GetComponent<LoadNewScene>().StartCoroutine("LoadLevel", index);
     }
 
+    public void BitsCheatButton(int index)
+    {
+        bits += index;
+        bitsText.text = "Bits: " + bits;
+    }
+
     public void ResetEverything()
     {
+        //Now i don't have to change the prefabs every time i wanna test!
+
         PlayerPrefs.SetInt("bits", 0);
 
-        foreach(GameObject skin in skins)
+        foreach (GameObject skin in skins)
         {
             skin.GetComponent<Skins>().hasBeenPurchased = false;
         }
+
+        GameObject.Find("Selected Vehicle").GetComponent<Selected>().selectedVehicle = skins[defaultSkinIndex];
     }
 }
