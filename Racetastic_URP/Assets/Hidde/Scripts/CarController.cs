@@ -45,7 +45,7 @@ public class CarController : MonoBehaviour
 
             if(motor >= 0)
             {
-                speedometer.speedText.text = "Speed: " + (motor / 6).ToString("0") + "u/h";
+                speedometer.speedText.text = "Speed: " + (motor / 8).ToString("0") + "u/h";
             }
             else
             {
@@ -108,6 +108,7 @@ public class CarController : MonoBehaviour
     public void ResetForces()
     {
         rb.velocity = Vector3.zero;
+        rb.angularVelocity = Vector3.zero;
 
         foreach (var axleInfo in axleInfos)
         {
