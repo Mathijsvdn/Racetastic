@@ -45,7 +45,7 @@ public class CarController : MonoBehaviour
 
             if(motor >= 0)
             {
-                speedometer.speedText.text = "Speed: " + (motor / 4).ToString("0") + "u/h";
+                speedometer.speedText.text = "Speed: " + (motor / 6).ToString("0") + "u/h";
             }
             else
             {
