@@ -38,7 +38,7 @@ public class CarController : MonoBehaviour
         if (!isBoosting)
         {
             // Get the input of the player
-            float motor = maxSpeed * Input.GetAxis("Vertical"); // Gets the forward input for driving and braking
+            float motor = maxSpeed * Input.GetAxis("Vertical"); // Gets the forward input for driving and braking.
             float steering = maxSteeringAngle * Input.GetAxis("Horizontal"); // Gets the right input for steering
 
             anims.SetFloat("Blend", steering / maxSteeringAngle);
