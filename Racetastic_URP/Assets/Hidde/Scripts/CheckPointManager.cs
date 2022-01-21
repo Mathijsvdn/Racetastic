@@ -67,6 +67,13 @@ public class CheckPointManager : MonoBehaviour
     {
         yield return new WaitForSeconds(.5f);
 
+        GameObject[] coins = GameObject.FindGameObjectsWithTag("coin");
+
+        for (int i = 0; i < coins.Length; i++)
+        {
+            coins[i].GetComponent<PowerUp>().ResetVisual();
+        }
+
         foreach (var item in checkPoints)
         {
             item.SetTriggeredState(false);

@@ -7,23 +7,51 @@ public class PowerUp : MonoBehaviour
     public float rotationSpeed;
     public PowerUpType type;
 
+    public Vector3 rotation;
+
+    public Renderer render;
+
     public GameObject powerupEffect;
+
+    private void Start()
+    {
+        render = GetComponent<Renderer>();
+    }
 
     private void Update()
     {
-        transform.Rotate(0f, rotationSpeed * Time.deltaTime, 0f);
+        transform.Rotate(rotation * Time.deltaTime);
+        OnUpdate();
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        //TODO PowerupDingen
-        GameObject effect = Instantiate(powerupEffect, transform.position, transform.rotation);
-        Destroy(effect, 5f);
+        if(powerupEffect != null)
+        {
+            //TODO PowerupDingen
+            GameObject effect = Instantiate(powerupEffect, transform.position, transform.rotation);
+            Destroy(effect, 5f);
+        }
 
-        other.GetComponentInParent<PowerupManager>().OnPowerUp(type);
+        OnPowerUp();
 
         // Destroy the powerupobj
-        Destroy(gameObject);
+        render.enabled = false;
+    }
+
+    public void ResetVisual()
+    {
+        render.enabled = true;
+    }
+
+    public virtual void OnPowerUp()
+    {
+
+    }
+
+    public virtual void OnUpdate()
+    {
+
     }
 }
 
