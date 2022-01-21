@@ -505,7 +505,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 70}
   render: {fileID: 39760228}
   powerupEffect: {fileID: 0}
-  earn: 0
+  earn: 1
 --- !u!64 &39760226
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3968,7 +3968,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 70}
   render: {fileID: 39760228}
   powerupEffect: {fileID: 0}
-  earn: 0
+  earn: 1
 --- !u!64 &348861255
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4636,7 +4636,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 70}
   render: {fileID: 39760228}
   powerupEffect: {fileID: 0}
-  earn: 0
+  earn: 1
 --- !u!64 &403007752
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4751,7 +4751,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 70}
   render: {fileID: 39760228}
   powerupEffect: {fileID: 0}
-  earn: 0
+  earn: 1
 --- !u!64 &419707442
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8048,7 +8048,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 70}
   render: {fileID: 39760228}
   powerupEffect: {fileID: 0}
-  earn: 0
+  earn: 1
 --- !u!64 &593269293
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9139,7 +9139,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 70}
   render: {fileID: 39760228}
   powerupEffect: {fileID: 0}
-  earn: 0
+  earn: 1
 --- !u!64 &720250009
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9415,7 +9415,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 70}
   render: {fileID: 39760228}
   powerupEffect: {fileID: 0}
-  earn: 0
+  earn: 1
 --- !u!64 &736662340
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9671,7 +9671,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 70}
   render: {fileID: 39760228}
   powerupEffect: {fileID: 0}
-  earn: 0
+  earn: 1
 --- !u!64 &763975427
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11782,7 +11782,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 70}
   render: {fileID: 39760228}
   powerupEffect: {fileID: 0}
-  earn: 0
+  earn: 1
 --- !u!64 &869805752
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12290,7 +12290,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 70}
   render: {fileID: 39760228}
   powerupEffect: {fileID: 0}
-  earn: 0
+  earn: 1
 --- !u!64 &904481165
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13269,7 +13269,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 70}
   render: {fileID: 39760228}
   powerupEffect: {fileID: 0}
-  earn: 0
+  earn: 1
 --- !u!64 &969845684
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14648,7 +14648,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 70}
   render: {fileID: 39760228}
   powerupEffect: {fileID: 0}
-  earn: 0
+  earn: 1
 --- !u!64 &1031621816
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15148,7 +15148,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 70}
   render: {fileID: 39760228}
   powerupEffect: {fileID: 0}
-  earn: 0
+  earn: 1
 --- !u!64 &1068991212
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16450,7 +16450,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 70}
   render: {fileID: 39760228}
   powerupEffect: {fileID: 0}
-  earn: 0
+  earn: 1
 --- !u!64 &1142407870
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16949,7 +16949,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 70}
   render: {fileID: 39760228}
   powerupEffect: {fileID: 0}
-  earn: 0
+  earn: 1
 --- !u!64 &1195129558
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17582,7 +17582,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 70}
   render: {fileID: 39760228}
   powerupEffect: {fileID: 0}
-  earn: 0
+  earn: 1
 --- !u!64 &1288984136
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23254,7 +23254,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 70}
   render: {fileID: 39760228}
   powerupEffect: {fileID: 0}
-  earn: 0
+  earn: 1
 --- !u!64 &1657663335
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24542,7 +24542,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 70}
   render: {fileID: 39760228}
   powerupEffect: {fileID: 0}
-  earn: 0
+  earn: 1
 --- !u!64 &1758048300
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27923,7 +27923,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 70}
   render: {fileID: 39760228}
   powerupEffect: {fileID: 0}
-  earn: 0
+  earn: 1
 --- !u!64 &1987685643
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28388,7 +28388,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 70}
   render: {fileID: 39760228}
   powerupEffect: {fileID: 0}
-  earn: 0
+  earn: 1
 --- !u!64 &2000995651
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28425,7 +28425,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 70}
   render: {fileID: 39760228}
   powerupEffect: {fileID: 0}
-  earn: 0
+  earn: 1
 --- !u!64 &2012411559
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28560,7 +28560,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 70}
   render: {fileID: 39760228}
   powerupEffect: {fileID: 0}
-  earn: 0
+  earn: 1
 --- !u!64 &2021272593
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29058,7 +29058,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 70}
   render: {fileID: 39760228}
   powerupEffect: {fileID: 0}
-  earn: 0
+  earn: 1
 --- !u!64 &2065755486
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29432,7 +29432,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 70}
   render: {fileID: 39760228}
   powerupEffect: {fileID: 0}
-  earn: 0
+  earn: 1
 --- !u!64 &2111777504
 MeshCollider:
   m_ObjectHideFlags: 0
